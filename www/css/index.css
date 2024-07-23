@@ -1,0 +1,81 @@
+label{
+    text-align: center;
+}
+
+/*home*/
+#homePage {
+    background-color: #FEFEF3;
+}
+/* Style de l'en-tête */
+.ui-heade h1 {
+    font-family: "Times New Roman", Georgia, serif; /* Police classique */
+    font-size: 2em; /* Taille de la police */
+    font-weight: normal; /* Poids de la police */
+    text-align: center;
+    margin: 0; /* Supprimer la marge */
+    padding: 10px; /* Ajouter un peu de remplissage */
+    color: #333; /* Couleur du texte */
+}
+/* Style pour l'image de bienvenue */
+.welcome-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 50px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Style pour le message de bienvenue */
+.welcome-message {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333; /* Couleur de texte pour un bon contraste */
+}
+/* Style pour le bouton "To Do List" */
+a.ui-btn {
+    background-color: #E7C826 !important; /* Couleur du bouton */
+    border-color: #E7C826 !important;
+    color: #333 !important; /* Couleur du texte pour un bon contraste */
+    text-align: center;
+}
+/* Changement de couleur au survol du bouton */
+a.ui-btn:hover {
+    background-color: #d6b120 !important; /* Couleur du bouton au survol */
+    border-color: #d6b120 !important;}
+
+
+    /*index*/
+    
+    body {
+        background-color: #FEFEF3 !important; /* Couleur de fond */
+    }
+    div[data-role="header"],
+    div[data-role="footer"] {
+        background-color: #E7C826 !important; /* Couleur du header et du footer */
+        color: black !important; /* Couleur du texte dans le header et le footer */
+    }
+    .ui-header h1, .ui-header h2 {
+        display: flex;
+        align-items: center;
+    }
+    input[type="button"] {
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        margin: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Font Awesome 6', sans-serif;
+    }
+    input[type="button"].add-btn {
+        background-color: #029900; /* Couleur du bouton Ajouter */
+    }
+    input[type="button"].reset-btn {
+        background-color: rgb(235, 18, 18); /* Couleur du bouton Réinitialiser */
+    }
+   
